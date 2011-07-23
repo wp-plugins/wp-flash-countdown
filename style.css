@@ -1,0 +1,106 @@
+<style>
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.allBanner{position:relative; background-color:#f6f6f6; width:600px; margin:40px 0 400px 0; border:#CCCCCC solid 1px;	border-radius: 10px; z-index:10;}
+
+ul {
+	margin: 0;
+}
+h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+IMG{border:none;}
+a.IMG{border:none;}
+
+#contentLeft {
+	margin:10px 0 0 0;
+}
+
+#contentLeft li {
+	list-style: none;
+	margin: 0 0 4px 0;
+	padding: 10px;
+	background-color:#ffffff;
+	border: #CCCCCC solid 1px;	border-radius: 10px;
+	color:#fff;
+	cursor:move;
+}#contentLeft li:hover {	border: #999 solid 1px;}
+
+
+	
+
+#contentRight {
+	float: right;
+	width: 260px;
+	padding:10px;
+	background-color:#336600;
+	color:#FFFFFF;
+}
+
+.buttons{	margin:-25px 0 0 20px; }
+.submit{
+	margin-left:10px;
+}
+#banner{padding:20px;margin-top:20px;}
+#settings{position:relative;padding:20px;margin-top:20px;margin-bottom:20px;}
+#addbanner{padding:20px;margin-top:20px;}
+#help{padding:20px;margin-top:20px;}
+#allB{padding:20px;margin-top:20px;}
+#banerDetails{padding:20px;margin-top:20px;}
+#bannerCount{border: #CCCCCC solid 1px;	border-radius: 10px; padding:10px;margin-top:40px;}
+#addbanner {border: #CCCCCC solid 1px;	border-radius: 10px; }
+.bannerN {float:left; width;200px; height:20px;}
+.bannerNImage {float:right; margin:-3px 0 10px 0; height:20px; text-align:center;}
+.title { height:40px;}
+#addImg{border: #CCCCCC solid 1px;	border-radius: 10px;padding:10px;margin:20px;}
+
+
+ .helpBH , .settingsBH, .bannerBH{position:relative; display:block; float:left;	width:100px;  background-color:#e7e6e6;	border:1px solid #CCCCCC; -webkit-border-top-left-radius: 5px;text-align:center;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px; border-bottom:none;	font-size: 14px;	text-decoration:none;	color:#555555; 		height:20px;	font-weight:bold;	padding-top:4px; margin-right:5px;	cursor:pointer;}
+.helpBH a, .settingsBH a, .bannerBH a{	z-index:999; text-decoration:none;	color:#2175B7; }
+.helpBH  a:hover, .settingsBH a:hover, .bannerBH a:hover{	text-decoration:none;	color:#2175B7; }
+.bannerB{position:relative; display:block; float:left;	width:150px;	background-color:#f6f6f6;	border:1px solid #CCCCCC; -webkit-border-top-left-radius: 5px;text-align:center;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px; border-bottom:none;	font-size: 14px;	text-decoration:none;	color:#555555; 	width:80px;	height:20px;	font-weight:bold;		padding-top:4px;	margin-right:5px;cursor:pointer;}
+.bannerB:hover{	background-color:#e7e6e6;border:1px solid #b4b2b2;border-bottom:none;}
+.bannerB a{	text-decoration:none;	color:#555555; }#bannerB a:hover{	text-decoration:none;	color:#2175B7; }
+.settingsB{position:relative; display:block; float:left;	width:150px;	background-color:#f6f6f6;	border:1px solid #CCCCCC; -webkit-border-top-left-radius: 5px;text-align:center;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px; border-bottom:none;	font-size: 14px;	text-decoration:none;	color:#555555; 	width:80px;	height:20px;	font-weight:bold;		padding-top:4px;	margin-right:5px;cursor:pointer;	}
+.settingsB:hover{	background-color:#e7e6e6;border:1px solid #b4b2b2;border-bottom:none;}
+.settingsB a{	text-decoration:none;	color:#555555; }
+.settingsB a:hover{	text-decoration:none;	color:#2175B7; }
+#editB{border:none;	background-image:url('images/addIcon.png');	background-repeat:no-repeat;	font-size: 10px;	text-decoration:none;	color:#555555; 	width:37px;	height:40px;	padding-right:18px;	padding-bottom:26px;	cursor:pointer;	float:right;		}
+#editB:hover{border:none;	background-image:url('images/addIcon.png');	background-repeat:no-repeat;}
+#editB a{border:none;	text-decoration:none;	color:#555555; }
+#editB a:hover{	border:none;text-decoration:none;	color:#2175B7; }
+#deleteB{border:none;	background-image:url('images/deleteIcon.png');		background-repeat:no-repeat;	font-size: 10px;	text-decoration:none;	color:#555555; 	width:37px;	height:40px;	padding-right:16px;	padding-bottom:26px;	cursor:pointer;	float:right;	}
+#deleteB:hover{border:none;	border:none;	background-repeat:no-repeat;}
+#deleteB a{	text-decoration:none;	color:#555555; }
+#deleteB a:hover{border:none;	text-decoration:none;	color:#2175B7; }#imageText{	font-size: 14px;	color:#2175B7; 	padding-top:10px;}
+.helpB{position:relative; display:block; float:left;	width:150px;	background-color:#f6f6f6;	border:1px solid #CCCCCC; -webkit-border-top-left-radius: 5px;text-align:center;
+-webkit-border-top-right-radius: 5px;
+-moz-border-radius-topleft: 5px;
+-moz-border-radius-topright: 5px;
+border-top-left-radius: 5px;
+border-top-right-radius: 5px; border-bottom:none;	font-size: 14px;	text-decoration:none;	color:#555555; 	width:80px;	height:20px;	font-weight:bold;		padding-top:4px;	margin-right:5px;cursor:pointer;	}
+.helpB:hover{	background-color:#e7e6e6;border:1px solid #b4b2b2;border-bottom:none;}
+.helpB a{	text-decoration:none;	color:#555555; }
+.helpB a:hover{	text-decoration:none;	color:#2175B7; }
+
+</style>
