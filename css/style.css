@@ -1,0 +1,16 @@
+
+/*style for numbers*/
+.daysName {
+	
+	font-family: "Bebas";
+    font-size: 46;
+	color: #b7b4b4;
+	margin-left:14px;
+	text-align:center;
+}
+.dayText{
+	font-family: "Bebas";
+    font-size: 16;
+	color: #a3a0a0;
+	text-align:center;
+}
